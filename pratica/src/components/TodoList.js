@@ -1,6 +1,6 @@
 import  React from 'react';
 import Todo from './Todo';
-import '/home/ebano/Documentos/projetos/coding/aprendendoreact/pratica/pratica/src/App.css';
+
 
 const TodoList = ({todos, setTodos, filteredTodos}) => {
    
