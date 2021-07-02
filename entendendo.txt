@@ -1,0 +1,10 @@
+Para a execução de funcionalidade dos filtros todos:
+Ele diz que vai criar uma outra peça de state específico prar o filtro todo,
+	No app cria o useState com o default e passa para o componante form
+	No form cria a função do status (com a arrow function) e coloca o evento onchange no select da caixa passando a função que foi criada
+Então assim ele diz que quer salvar o state ao invéz de apenas deixa-lo escrito na tag html,
+	Pra isso ele importa na const Form  a função do useState criada no app para poder usar o state na função que foi criada no form. Com isso o programa começa a atualizar o hook state que criamos.
+
+	Depois é criado o filteredState no app.js de array. Nesse state serão armazenados os itens da lista marcados com o state escolhido. Para no fim esses serem renderizdos, mantendo os originais. Por isso há dois arrays nesta aplicação.
+
+aos 01:05 ele diz com relação ao filtro da lista
